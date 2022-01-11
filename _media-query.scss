@@ -1,0 +1,80 @@
+// ------navbar---------
+@media only screen and (max-width: 680px) {
+  nav {
+    position: sticky;
+    top: -145px;
+    width: 100%;
+    z-index: 2;
+    height: 10px;
+    display: block;
+    transition: 1s;
+
+    li {
+      font-size: 1.2rem;
+      letter-spacing: 0em;
+      justify-content: center;
+      margin: 1rem auto;
+      width: 7rem;
+    }
+  }
+  .logo-pc{display: none;}
+  .logo-phone {
+    display: block!important;
+    margin-left: auto!important;
+    text-align: center!important;
+    img {
+      margin-left: -3px;
+    }
+  }
+  nav:hover {
+    position: sticky;
+    top: 0;
+    height: 200px;
+  }
+}
+
+// ------home----
+@media only screen and (max-width: 680px) {
+  h1 {font-size: 17rem!important;
+        writing-mode: vertical-rl;
+        background-image: url(/textbg8.jpg)!important;
+  }
+  @keyframes test {
+    from {
+      background-position: 0% 40%;
+      top: 1200px;
+    }
+
+    to {
+      background-position: 100% 50%;
+      top: -1100px;
+    }
+  }
+
+  h2 {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    font-size: 4rem!important;
+    font-weight: bolder;
+    justify-content: center;
+  }
+}
+
+// ----------sevice---------
+@media only screen and (max-width: 680px) {
+  
+  .s-list {
+    padding-top: 3rem!important;
+    font-size: 4em!important;
+    font-weight: bolder;
+    color: #242323;
+    width: 100%;
+  }
+  h3{
+    
+    font-size: 3rem!important;
+    
+  }
+}

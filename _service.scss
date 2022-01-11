@@ -1,0 +1,63 @@
+.service {
+  height: 100vh;
+  width: 100;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.15)),
+    url(/servicebg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .s-list {
+    font-size: 5rem;
+    font-weight: bolder;
+    padding-top: 7rem;
+    text-shadow: 2px 4px #f84f00;
+    color: #242323;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+h3 {
+    text-align: center;
+  color: #f84f00;
+  font-size: 4rem;
+  font-family: "Charm", cursive;
+  text-shadow: 2px 4px #242323;
+}
+.boxs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  grid-template-rows: repeat(6, 2rem);
+  margin-top: 3rem;
+  .box-1 {
+      background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.13)), url(/imgs/footerbg1.jpg);
+      background-position: bottom;
+      background-size:cover ;
+    grid-column: 1 / 2;
+    grid-row: 1/4;
+  }
+  .box-2 {
+    background-image: url(/imgs/footerbg2.jpg);
+    background-position: center;
+    background-size:cover ;
+    grid-column: 2/3;
+    grid-row: 3/6;
+  }
+  .box-3 {background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(/imgs/footerbg3.jpg);
+    background-position: center;
+    background-size:cover ;
+    grid-column: 3/4;
+    grid-row: 1/4;
+  }
+  .box-4 {background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(/imgs/homebg2.jpg);
+    background-position: center;
+    background-size:cover ;
+    grid-column: 4/5;
+    grid-row: 3/6;
+  }
+
+  .box {
+    border: #ff0000 solid 0px;
+    border-radius: 40px;
+  }
+}
