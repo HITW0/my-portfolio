@@ -114,7 +114,7 @@ li:hover::before {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100vh;
-  background-image: url(/imgs/footerbg4.jpg);
+  background-image: url(imgs/footerbg4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,7 +128,7 @@ li:hover::before {
   color: transparent;
   font-size: 14rem;
   font-weight: bolder;
-  background: url(/imgs/textbg5.jpg) repeat;
+  background: url(imgs/textbg5.jpg) repeat;
   background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
@@ -185,8 +185,8 @@ li:hover::before {
 .service {
   height: 100vh;
   width: 100;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.15))), url(/imgs/servicebg2.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.15)), url(/imgs/servicebg2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.15))), url(imgs/servicebg2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.15)), url(imgs/servicebg2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,8 +221,8 @@ h3 {
 }
 
 .boxs .box-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.13))), url(/imgs/footerbg1.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.13)), url(/imgs/footerbg1.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.13))), url(imgs/footerbg1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.13)), url(imgs/footerbg1.jpg);
   background-position: bottom;
   background-size: cover;
   -ms-grid-column: 1;
@@ -234,7 +234,7 @@ h3 {
 }
 
 .boxs .box-2 {
-  background-image: url(/imgs/footerbg2.jpg);
+  background-image: url(imgs/footerbg2.jpg);
   background-position: center;
   background-size: cover;
   -ms-grid-column: 2;
@@ -246,8 +246,8 @@ h3 {
 }
 
 .boxs .box-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.527))), url(/imgs/footerbg3.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(/imgs/footerbg3.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.527))), url(imgs/footerbg3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(imgs/footerbg3.jpg);
   background-position: center;
   background-size: cover;
   -ms-grid-column: 3;
@@ -259,8 +259,8 @@ h3 {
 }
 
 .boxs .box-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.527))), url(/imgs/homebg2.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(/imgs/homebg2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(255, 0, 0, 0.527))), url(imgs/homebg2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(imgs/homebg2.jpg);
   background-position: center;
   background-size: cover;
   -ms-grid-column: 4;
@@ -278,8 +278,8 @@ h3 {
 
 footer {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url(/imgs/homebg5.jpg);
-  background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/imgs/homebg5.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url(imgs/homebg5.jpg);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(imgs/homebg5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -388,7 +388,7 @@ input[type=submit]:hover {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
-    background-image: url(/imgs/textbg8.jpg) !important;
+    background-image: url(imgs/textbg8.jpg) !important;
   }
   @-webkit-keyframes test {
     from {

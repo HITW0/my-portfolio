@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100;
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.15)),
-    url(/imgs/servicebg2.jpg);
+    url(imgs/servicebg2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,26 +30,26 @@ h3 {
   grid-template-rows: repeat(6, 2rem);
   margin-top: 3rem;
   .box-1 {
-      background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.13)), url(/imgs/footerbg1.jpg);
+      background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.13)), url(imgs/footerbg1.jpg);
       background-position: bottom;
       background-size:cover ;
     grid-column: 1 / 2;
     grid-row: 1/4;
   }
   .box-2 {
-    background-image: url(/imgs/footerbg2.jpg);
+    background-image: url(imgs/footerbg2.jpg);
     background-position: center;
     background-size:cover ;
     grid-column: 2/3;
     grid-row: 3/6;
   }
-  .box-3 {background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(/imgs/footerbg3.jpg);
+  .box-3 {background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(imgs/footerbg3.jpg);
     background-position: center;
     background-size:cover ;
     grid-column: 3/4;
     grid-row: 1/4;
   }
-  .box-4 {background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(/imgs/homebg2.jpg);
+  .box-4 {background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 0, 0, 0.527)), url(imgs/homebg2.jpg);
     background-position: center;
     background-size:cover ;
     grid-column: 4/5;
